@@ -44,14 +44,14 @@ export default function JogoDoGalo() {
                       <img
                         src="/imagens/gaga.jpeg"
                         alt="Gaga"
-                        className="icone-jogador"
+                        className="icone-jogador-gaga"
                       />
                     )}
                     {casa === "O" && (
                       <img
-                        src="/imagens/alex.jpg"
+                        src="/imagens/alex.jpg" 
                         alt="Alex"
-                        className="icone-jogador"
+                        className="icone-jogador-turner" 
                       />
                     )}
                   </button>

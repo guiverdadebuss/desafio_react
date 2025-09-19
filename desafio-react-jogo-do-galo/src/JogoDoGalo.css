@@ -73,22 +73,14 @@ h2 {
   border-radius: 25px; /* bordas arredondadas ao passar o mouse , TESTANDO */
 }
 
-.icone-jogador-gaga {  /* icones do jogo */
-  width: 200px;
-  height: 150px;
-  object-fit: contain;
-  vertical-align: middle;
-  margin-left: 6px;
-  border-radius: 15%;
+.icone-jogador {
+  width: 150px;       /* largura igual para ambas */
+  height: 150px;      /* altura igual para ambas */
+  object-fit: cover;  /* cobre totalmente a área, mantendo proporção */
+  border-radius: 20%; /* cantos arredondados iguais */
+  margin: 0 6px;      /* margem lateral uniforme */
 }
-.icone-jogador-turner {  /* icones do jogo */
-  width: 200px;
-  height: 150px;
-  object-fit: contain;
-  vertical-align: middle;
-  margin-left: 6px;
-  border-radius: 15%;/* bordas arredondadas // mexer no ALEX ta zoado */
-}
+
 
 .vez-jogador { /* vez do jogador */
   display: flex;

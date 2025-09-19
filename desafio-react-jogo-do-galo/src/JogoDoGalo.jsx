@@ -9,13 +9,15 @@ export default function JogoDoGalo() {
 
   return (
     <div className="jogo-container">
-      <h1>JOGO DO ROCK! </h1>
+      <h1>JOGO DO ROCK! </h1>  {/* H1 MUDANDO COR */}
 
+ 
       {!fimDeJogo ? (
         <>
-          <h2>
+          <h2> 
             <div className="vez-jogador">
-              <span>Vez do Jogador:</span>
+              <span>Vez do Jogador:</span> {/* SPAN H2 MUDAR COR */}
+
               {jogo.jogadorAtual === "X" && (
                 <img src="/imagens/gaga.jpeg" alt="Gaga" className="icone-jogador" />
               )}
@@ -62,7 +64,8 @@ export default function JogoDoGalo() {
         <div className="resultado-final">
           {vencedor ? (
             <div className="vencedor-container">
-              <h2>Vencedor:</h2>
+              <h3>VENCEDOR:</h3> {/* H3 MUDAR COR */}
+
               {vencedor === "X" && (
                 <img src="/imagens/gaga.jpeg" alt="Gaga" className="icone-vencedor" />
               )}
@@ -78,7 +81,8 @@ export default function JogoDoGalo() {
           )}
 
           <button className="btn-reiniciar" onClick={reiniciarJogo}>
-            Reiniciar
+            Reiniciar {/* MEXER BOTAO, COR ETC FONTE NO CSS */}
+
           </button>
         </div>
       )}

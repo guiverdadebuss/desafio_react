@@ -75,7 +75,6 @@ h2 {
 
 .icone-jogador {
   width: 150px;       /* largura igual para ambas */
-  height: 150px;      /* altura igual para ambas */
   object-fit: cover;  /* cobre totalmente a área, mantendo proporção */
   border-radius: 20%; /* cantos arredondados iguais */
   margin: 0 6px;      /* margem lateral uniforme */

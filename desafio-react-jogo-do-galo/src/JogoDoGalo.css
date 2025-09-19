@@ -112,13 +112,13 @@ h2 {
   font-weight: bold;
   
   /* Glow glam rock */
-  background: linear-gradient(135deg, #4d0505, #122505, #7928ca);
+  background: linear-gradient(135deg, #520505, #1d3110, #470503);
   background-size: 250% 250%;
   animation: glamBackground 6s ease infinite;
 
   /* Brilho externo pulsante */
-  box-shadow: 0 0 25px rgba(105, 35, 70, 0.7),
-              0 0 50px rgba(121, 40, 202, 0.6);
+  box-shadow: 0 0 25px rgba(49, 20, 1, 0.7),
+              0 0 50px rgba(112, 0, 0, 0.6);
   animation: glamBackground 6s ease infinite, glamPulse 2s ease-in-out infinite;
 }
 

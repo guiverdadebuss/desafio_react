@@ -29,7 +29,7 @@ h1 {  /* titulo, cores, gradiente */
   font-family: 'Uncial Antiqua', cursive;
   font-size: 2rem;
   background: linear-gradient(90deg, #ff0000, #800000, #660000); /* vermelho sangrento */
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent; /* necessário pra o gradiente aparecer no texto */
 }
 
